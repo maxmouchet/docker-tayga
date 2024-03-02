@@ -11,6 +11,7 @@ ipv6-addr ${TAYGA_IPV6_ADDR}
 prefix ${TAYGA_CONF_PREFIX}
 dynamic-pool ${TAYGA_CONF_DYNAMIC_POOL}
 data-dir ${TAYGA_CONF_DATA_DIR}
+strict-frag-hdr ${TAYGA_CONF_FRAG}
 EOF
 
 # Setup Tayga networking

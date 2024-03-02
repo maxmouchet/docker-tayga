@@ -23,7 +23,8 @@ ENV \
 	TAYGA_CONF_IPV4_ADDR=172.18.0.100 \
 	TAYGA_IPV6_ADDR=fdaa:bb:1::1 \
 	TAYGA_CONF_PREFIX=64:ff9b::/96 \
-	TAYGA_CONF_DYNAMIC_POOL=172.18.0.128/25
+	TAYGA_CONF_DYNAMIC_POOL=172.18.0.128/25 \
+	TAYGA_CONF_FRAG=true
 
 RUN apt-get update && apt-get install -y \
     curl \
